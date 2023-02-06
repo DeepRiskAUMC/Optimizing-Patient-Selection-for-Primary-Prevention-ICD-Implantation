@@ -31,8 +31,8 @@ The interpretation of individual predictions was explained using the SHAP method
 
 ## Usage
 The detailed description of ECG pre-processing and feature extraction is provided in the Supplemental Methods. To use this project:
-1. Extract the ECG features using tsfresh version 0.12.0 in Python 3.6
 ```
+1. Extract the ECG features using tsfresh version 0.12.0 in Python 3.6
 2. Perform the feature selection and model training using the scikit-learn and XGBoost libraries
 3. The internal model evaluation was performed by repeated stratified k-fold cross-validation with k=10 and 5 repeats
 4. The performance of the final model was evaluated on the external testing cohort
