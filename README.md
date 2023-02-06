@@ -7,7 +7,7 @@ This repository contains code for pre-processing and analyzing ECG data collecte
 This project aims to extract features from ECG time-series data and develop machine learning models to predict the risk of ICD non-benefit. The pre-processed ECGs were characterized by 65 unique features calculated using tsfresh algorithm. The feature selection approach combined the Benjamini-Yekutieli procedure and a recursive feature elimination algorithm. The machine learning models used in this project are support vector machines (SVM), extreme gradient boosting algorithms (XGBoost), and random forest (RF) classifiers. The interpretation of individual predictions was explained using the SHAP method and mean waveforms for predicted high risk and predicted low risk of ICD non-benefit in the external patient cohort were displayed.
 
 ##Requirements
--Python 3.6
+-Python 3.6 \n
 -tsfresh version 0.12.0
 -scikit-learn library version 1.1.1.
 -XGBoost library version 1.6.2.
